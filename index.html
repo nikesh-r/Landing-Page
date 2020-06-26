@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body id="main">
+    <header id="header">
+		<div id="header-components">
+			<img id="header-img" src="./res/guitar.png" alt="guitar logo">
+			<a href="#" id="header-name">Guitar Musical Store</a>
+		</div>
+		<nav id="nav-bar">
+			<a href="#main" class="nav-link">Home</a>
+			<a href="#features" class="nav-link">Features</a>
+			<a href="#video" class="nav-link">History</a>
+        </nav>
+	</header>
+	<div id="contact">
+		<h1 id="heading">Everything we do is driven by Guitar.</h1>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<input id="email" name="email" type="email" placeholder="Enter your email address" required>
+			<input id="submit" type="submit" value="Get Started">
+		</form>
+	</div>
+	<div id="container">
+		<section id="features">
+			<div class="features-link">
+				<img class="icon" src="./res/premium.png" alt="premium symbol">
+				<div class="desc">
+					<h2 class="features-heading">Premium Materials</h2>
+					<p class="features-text">Our guitars use the shiniest materials which is sourced locally. This will increase the longevity of your purchase.</p>
+				</div>
+			</div>
+			<div class="features-link">
+				<img class="icon" src="./res/truck.png" alt="truck symbol">
+				<div class="desc">
+					<h2 class="features-heading">Fast Shipping</h2>
+					<p class="features-text">We make sure you recieve your guitar as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+				</div>
+			</div>
+			<div class="features-link">
+				<img class="icon" src="./res/energy.png" alt="battery symbol">
+				<div class="desc">
+					<h2 class="features-heading">Quality Assurance</h2>
+					<p class="features-text">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+				</div>
+			</div>
+		</section>
+		<section >
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lH-r_CqtZnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		<footer id="footer">
+			<div id="footer-items">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Contact</a>
+			</div>
+			<span>Copyright 2020, Guitar Musical Store</span>
+		</footer>
+	</div>
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
